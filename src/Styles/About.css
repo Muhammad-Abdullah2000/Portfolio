@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+.about .section-title{
+
+ font-weight: bold;
+
+
+}
+.about__container {
+
+ 
+    text-align: center;
+    width: 50%;
+    color: black;
+  }
+  
+.about h2 {
+  font-family: 'Open Sans', sans-serif;
+   font-size: 25px;
+   color: black;
+   height: 50px;
+  
+ }
+  .about__img {
+    justify-self: center;
+   
+  }
+  
+  .about__img img {
+    width: 200px;
+    border-radius: .5rem;
+    /* border: 1px solid #28559A; */
+  }
+  .about__text{
+    text-align: justify;
+     font-family: 'Open Sans', sans-serif; 
+    font-size: 15px;
+  }
+  .btn{
+    margin-top: 20px;
+   
+  }
+  #button{
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    background: #28559A;
+    
+  }
+  #button:hover{
+    color: #000;
+    background: transparent;
+    border: 1px solid #28559A;
+  }
+  #SE{
+    color: #28559A;
+    
+     
+    
+  }
+  
+  @media only screen and (max-width: 1124px)  {
+
+    .about h2 {
+      font-size: 15px;
+      padding: 2px;
+      width: 100%;
+     
+    }
+   
+     .about__text {
+     
+      margin: 10px -30px 100px -30px;
+    } 
+    .about__img {
+      justify-self: center;
+    }
+    .about__img img {
+      width: 200px;
+      border-radius: .5rem;
+    }
+    .about h2 #SE{
+      display: inline-block;
+      
+    }
+    .btn{
+     margin-top: -70px;
+      margin-bottom: 120px;
+    }
+    #button{
+      font-size: 14px;
+    }
+    .about__img img{
+      width: 150px;
+    }
+    
+  }

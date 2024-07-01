@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+.skills {
+    font-size: 15px;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .skills #SkillsDetails {
+    margin-top: 30px;
+    color: #28559A;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+  }
+  
+  .skills .list {
+     list-style: none;
+    width: 60%;
+    font-family: 'Open Sans', sans-serif; 
+    
+  }
+  
+  .list span {
+    font-size: 20px;
+     font-family: 'Open Sans', sans-serif; 
+  }
+  @media only screen and (max-width: 1127px){
+
+    .skills {
+        font-size: 15px;
+        padding: 10px;
+        text-align: center;
+      }
+      .list {
+        padding: 0;
+         margin-bottom: 100px; 
+         font-size: 25px;
+      }
+    
+      .skills #SkillsDetails {
+        font-size: 30px;
+      }
+
+
+  }

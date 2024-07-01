@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+.home {
+  background-color: #28559A;
+    width: 100%;
+     margin-top: -65px; 
+    align-items: center;
+    font-family: "Arial", sans-serif;
+    /* color: white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: calc(100vh - 50px);
+  }
+  .about {
+    
+   
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+    color: #f0f0f0;
+  }
+   #HI {
+    font-family: 'Open Sans', sans-serif;
+     font-size: 30px; 
+    color: white;
+    height: 50px;
+  }
+  
+   .about .prompt {
+    margin-top: 5px;
+    width: 70%;
+    font-size: 30px;
+    color: yellow;
+  } 
+  
+  @media only screen and (max-width: 600px) {
+    .about #HI {
+      font-size: 18px;
+      width: 100%;
+    }
+  
+    .about .prompt {
+       margin-top: 20px;
+      font-size: 20px;
+      width: 80%;
+    }
+}
+  
